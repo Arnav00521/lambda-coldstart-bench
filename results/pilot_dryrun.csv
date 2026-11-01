@@ -1,0 +1,16 @@
+utc_time,function,gap_min,attempt,cold,init_ms,duration_ms,client_ms,request_id
+2026-11-01T14:38:49+00:00,coldStartBench-gap30,30,0,True,497.96,1.69,1890.0,0da3b290-dfd4-405a-926a-23aa7e832df5
+2026-11-01T14:38:49+00:00,coldStartBench-gap10,10,0,True,499.59,1.82,1896.7,2408cba3-bea9-40ed-b33b-9394ff8bed15
+2026-11-01T14:38:49+00:00,coldStartBench-gap5,5,0,True,503.89,1.84,1901.4,145215f7-3e93-48e6-a680-f71abd173f8a
+2026-11-01T14:38:49+00:00,coldStartBench-gap20,20,0,True,485.18,2.09,1896.7,be30bf05-c6c8-4be6-bfec-1690160d3919
+2026-11-01T14:38:49+00:00,coldStartBench-gap45,45,0,True,491.81,1.82,1893.4,3b632b70-23b6-4981-aee4-15b6ad374b5c
+2026-11-01T14:38:54+00:00,coldStartBench-gap5,5,1,False,,1.37,298.0,a80391de-2ffb-4533-8741-28a688c209e8
+2026-11-01T14:38:59+00:00,coldStartBench-gap10,10,1,False,,1.94,192.9,4846c07d-ba3f-438f-8a7f-0ec7b01fc70b
+2026-11-01T14:38:59+00:00,coldStartBench-gap5,5,2,False,,1.56,47.6,931888af-0014-46e1-84db-23185d19c115
+2026-11-01T14:39:09+00:00,coldStartBench-gap20,20,1,False,,1.5,191.0,cc8bfd10-b3a9-400a-8615-0aeecf7f87bb
+2026-11-01T14:39:09+00:00,coldStartBench-gap10,10,2,False,,1.47,96.3,89a7a64b-6fd6-4468-bed3-9bbda1f74eb0
+2026-11-01T14:39:19+00:00,coldStartBench-gap30,30,1,False,,1.71,57.5,33118fce-0839-44e1-ad96-ad9bbdcd446d
+2026-11-01T14:39:29+00:00,coldStartBench-gap20,20,2,False,,1.48,91.3,87f41975-565f-4e51-a03e-d198c2e95c27
+2026-11-01T14:39:34+00:00,coldStartBench-gap45,45,1,False,,1.6,191.5,0c5ddf06-f6e9-4d2b-b91c-06ba3024f82d
+2026-11-01T14:39:49+00:00,coldStartBench-gap30,30,2,False,,16.61,188.2,d24897da-7d7c-48f2-b07e-90e82d0f2f76
+2026-11-01T14:40:19+00:00,coldStartBench-gap45,45,2,False,,19.16,362.0,241baf3e-2502-484a-8a1f-5105420ada87
