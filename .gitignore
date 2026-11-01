@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+function.zip
+.env
+out.json
+log.b64
