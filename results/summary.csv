@@ -1,0 +1,3 @@
+strategy,n,errors,late,cold_n,cold_rate_%,server_median,server_p95,server_max,cold_server_median,warm_server_median,init_median,client_median,client_p95
+ping,30,0,0,0,0.0,30.5,57.1,58.8,-,30.5,-,90.8,368.7
+baseline,30,0,0,30,100.0,496.8,713.2,1013.7,496.8,-,495.0,670.2,1158.9

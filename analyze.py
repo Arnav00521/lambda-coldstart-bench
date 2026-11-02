@@ -89,11 +89,11 @@ def main():
     for sp in ("top", "right"): ax.spines[sp].set_visible(False)
     for sp in ("left", "bottom"): ax.spines[sp].set_color(grid)
     ax.tick_params(colors=muted)
-    leg = ax.legend(frameon=False, loc="center right")
+    leg = ax.legend(frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.22), ncol=2)
     for t in leg.get_texts(): t.set_color(ink)
     fig.tight_layout()
     os.makedirs(os.path.dirname(args.chart) or ".", exist_ok=True)
-    fig.savefig(args.chart); print("saved", args.chart)
+    fig.savefig(args.chart, bbox_inches="tight")
 
 if __name__ == "__main__":
-    main()
+    main() 
