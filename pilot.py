@@ -1,6 +1,7 @@
 import argparse, base64, csv, os, re, threading, time
 from datetime import datetime, timezone
 import boto3
+from botocore.config import Config
 
 FIELDS = ["utc_time", "function", "gap_min", "attempt", "cold",
           "init_ms", "duration_ms", "client_ms", "request_id"]
@@ -41,7 +42,7 @@ def main():
 
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
     new = not os.path.exists(args.out)
-    lam = boto3.client("lambda", region_name=args.region)
+    lam = boto3.client("lambda", region_name=args.region,config=Config(retries={"max_attempts": 10, "mode": "standard"}))
     lock = threading.Lock()
     with open(args.out, "a", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDS)

@@ -4,3 +4,4 @@ function.zip
 .env
 out.json
 log.b64
+*.zip
