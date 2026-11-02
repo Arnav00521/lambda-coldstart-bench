@@ -96,4 +96,4 @@ def main():
     fig.savefig(args.chart); print("saved", args.chart)
 
 if __name__ == "__main__":
-    main()git add analyze.py main_bench.py
+    main()
