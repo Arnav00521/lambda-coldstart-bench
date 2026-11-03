@@ -1,8 +1,8 @@
 # Cold start latency in AWS Lambda: does a lightweight ping help?
 
 **Track D** (serverless performance benchmark)
-Arnav Chhabra, BITS Pilani, ID 2023A7PS0567
-**Random seed: 67** (last two digits of my ID). Used only in `main_bench.py`, to shuffle which of the two calls is sent first in each round. The other scripts use no randomness.
+Arnav Chhabra, BITS Pilani, ID 2023A7PS0567P
+**Random seed: 67** Used only in `main_bench.py`, to shuffle which of the two calls is sent first in each round. The other scripts use no randomness.
 
 Report: `report/Report_Track_D_Arnav_Chhabra.pdf` 
 
